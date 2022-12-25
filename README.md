@@ -8,7 +8,7 @@ NB: Make sure your mnemonic has high entropy value!
 
 ## Algorithm
 
-Mnemonic -> keccak256 -> repeat keccak256 for INDEX times -> Generate Encrypted JSON
+Mnemonic -> toUtf8Bytes  -> keccak256 -> repeat keccak256 for INDEX times -> Generate Encrypted JSON
 
 
 ## Usage
