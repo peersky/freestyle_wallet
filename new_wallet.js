@@ -19,7 +19,6 @@ var argv = require("yargs/yargs")(process.argv.slice(2))
   const MNEMONIC = argv.m;
   const PASSWORD = argv.p;
   const INDEX = argv.i;
-  console.log(MNEMONIC, PASSWORD, INDEX);
   let mnemonic_hash = ethers.utils.keccak256(
     ethers.utils.toUtf8Bytes(MNEMONIC)
   );
