@@ -4,14 +4,17 @@ var argv = require("yargs/yargs")(process.argv.slice(2))
   .positional("m", {
     describe: "mnemonic for a new wallet",
     type: "string",
+    demandOption: true,
   })
   .positional("p", {
     describe: "password to encrypt key",
     type: "string",
+    demandOption: true,
   })
   .positional("i", {
     describe: "account index to create",
     type: "number",
+    demandOption: true,
   }).argv;
 
 {
