@@ -1,16 +1,25 @@
 {
-  "name": "cryptomom",
-  "version": "1.0.0",
+  "name": "@peersky/freestyle-wallet",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "./new_wallet.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peersky/freestyle_wallet.git",
+    "directory": "/"
+  },
+  "bin": {
+    "freestyle": "./freestyle_wallet.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate": "./new_wallet.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tim Pechersky",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "ethers": "^5.7.2"
+    "ethers": "^5.7.2",
+    "yargs": "^17.7.1"
   }
 }
