@@ -5,11 +5,14 @@
   "main": "./new_wallet.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/peersky/freestyle_wallet.git",
-    "directory": "/"
+    "url": "https://github.com/peersky/freestyle_wallet.git"
+
   },
+  "publishConfig": {
+    "access": "public"
+  }
   "bin": {
-    "freestyle": "./freestyle_wallet.js"
+    "freestyle": "./new_wallet.js"
   },
   "scripts": {
     "generate": "./new_wallet.js"
