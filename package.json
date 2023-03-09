@@ -6,11 +6,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/peersky/freestyle_wallet.git"
-
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
   "bin": {
     "freestyle": "./new_wallet.js"
   },
