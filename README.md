@@ -13,6 +13,10 @@ Mnemonic -> toUtf8Bytes -> keccak256 -> repeat keccak256 for INDEX times -> Gene
 ## Usage
 
 ```
+npm i -g @peersky/freestyle-wallet
+```
+
+```
 Positionals:
   m  mnemonic for a new wallet                                          [string]
   p  password to encrypt key                                            [string]
@@ -30,4 +34,4 @@ run as
 
 or
 
-`yarn free
+`yarn freestyle -p $PWD -m $M -i $I > key.json`
