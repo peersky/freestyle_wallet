@@ -1,6 +1,6 @@
 # Free style wallet
 
-Generate bkockchain wallets from your own mnemonic.
+Generate blockchain wallets from your own mnemonic.
 
 This repository is simple and very transparent solution using only ethersjs and yargs
 
